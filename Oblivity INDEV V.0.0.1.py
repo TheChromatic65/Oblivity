@@ -1,31 +1,42 @@
 import time
+import winsound
 time.sleep(3)
 
 def display(char):
     print(char, end='', flush=True)
-    time.sleep(0.05)
+    time.sleep(0.089)
 def wait():
     time.sleep(0.2)
 def tim():
     time.sleep(0.5)
+def WAIT():
+    time.sleep(1)
     
 a = "This program will determine your identity."
 b = "It will be described on the Oblivity Scale."
 c = "Your scores and results will be explained once the test is finished."
 d = "Please read the public disclosure file before taking the test."
 
+winsound.PlaySound("sam.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+WAIT()
 for char in a:
     display(char)
 print()
 tim()
+winsound.PlaySound("sam1.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+WAIT()
 for char in b:
     display(char)
 print()
 tim()
+winsound.PlaySound("sam2.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+WAIT()
 for char in c:
     display(char)
 print()
 tim()
+winsound.PlaySound("sam3.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+WAIT()
 for char in d:
     display(char)
 print()
@@ -83,49 +94,74 @@ def about():
     m = "The pull-request will likely be merged unless it harms the functionality of the code."
     n = "Oblivion is currently still being developed by it's main creator."
     o = "A changelog is available in the menu, showcasing the full history of the program."
-    p = "View the github repo at https://github.com/TheChromatic65/Oblivity for more information."
+    p = "View the github repo for more information."
+    winsound.PlaySound("sam4.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in e:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam5.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in f:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam6.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in g:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam7.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in h:
         display(char)
     print()
+    winsound.PlaySound("sam8.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in i:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam9.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in j:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam10.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in k:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam11.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in l:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam12.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in m:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam13.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in n:
         display(char)
     print()
+    wait()
+    winsound.PlaySound("sam14.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in o:
         display(char)
     print()
     wait()
+    winsound.PlaySound("sam15.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+    WAIT()
     for char in p:
         display(char)
     print()
